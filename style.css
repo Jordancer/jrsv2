@@ -174,7 +174,7 @@ img {
   font-size: 80px;
 }
 
-input[type="fname"],[type="lname"],[type="email"],[type="phone"]
+input[type="text"],[type="lname"],[type="email"],[type="phone"]
 select,
 textarea {
   width: 100%;
