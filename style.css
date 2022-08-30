@@ -3,7 +3,7 @@ body {
   height: 110%;
   width: 100%;
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 h1 {
   font-family: Calligraffitti, fantasy;
@@ -24,7 +24,6 @@ ul {
 .nav-item {
   font-family: Lucida Handwriting, Cursive;
   font-size: 35px;
-  display: inline;
   float: right;
   padding-top: 22px;
 }
@@ -97,7 +96,6 @@ img {
 .flip-button {
   -webkit-appearance: button;
   -moz-appearance: button;
-  appearance: button;
 
   text-decoration: none;
   color: initial;
@@ -111,13 +109,12 @@ img {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: stretch;
   align-content: stretch;
 }
 
 .flip-card {
-  padding-right: 200px;
   background-color: transparent;
   width: 200px;
   height: 300px;
@@ -168,20 +165,17 @@ img {
 
 .contact-title {
   font-family: Calligraffitti, fantasy;
-  padding-top: 150px;
   text-align: center;
   color: white;
   font-size: 80px;
 }
 
-input[type="text"],[type="lname"],[type="email"],[type="phone"]
+input[type="text"],
 select,
 textarea {
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
+  border: transparent;
   border-radius: 4px;
-  box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
@@ -208,7 +202,6 @@ input[type="submit"]:hover {
 }
 
 .menu-title {
-  padding-top: 150px;
   text-align: center;
   color: white;
 }
@@ -216,7 +209,6 @@ input[type="submit"]:hover {
 /* Footer */
 
 .fa {
-  padding: 20px;
   font-size: 30px;
   width: 30px;
   text-align: center;
@@ -249,7 +241,7 @@ input[type="submit"]:hover {
 }
 
 footer {
+  position: relative;
   text-align: center;
-  margin: 0 auto;
   background-color: black;
 }
